@@ -1,0 +1,26 @@
+.producto-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.producto-form div {
+  margin-bottom: 1rem;
+}
+
+.producto-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.producto-form input {
+  width: 100%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
