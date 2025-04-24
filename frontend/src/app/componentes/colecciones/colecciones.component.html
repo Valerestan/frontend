@@ -1,0 +1,33 @@
+<img class="img-tendencias-portada" src="colecc.jpg" alt="tendencias" />
+<p class="estilo">INSIDE</p>
+<div class="cuadro"></div>
+<p class="titulo-portada">COLLEC</p>
+<div class="contenedor-producto">
+  <a href="../../productos" class="btn-cole">Productos</a>
+  <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
+</div>
+
+<section>
+  <section class="productos">
+    <div class="d-flex flex-wrap justify-content-center">
+      @for (producto of productos; track $index) {
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img
+          src="{{ producto.foto }}"
+          class="img-card card-img-top"
+          alt="{{ producto.titulo }}"
+          style="width: 100%; height: 400px; object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="titulo card-title">{{ producto.nombre }}</h5>
+          <p class="material card-text">{{ producto.descripcion }}</p>
+          <p class="precio card-text">{{ producto.precio | currency }}</p>
+
+          <button type="button" class="btn-comprar">Agregar</button>
+        </div>
+      </div>
+      }
+    </div>
+
+    <h1 class="num-produc">{{ productos.length }} Productos</h1>
+  </section>

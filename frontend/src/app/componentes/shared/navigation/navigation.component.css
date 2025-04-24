@@ -1,0 +1,195 @@
+nav {
+  display: flex;
+  gap: 2rem;
+  background-color: rgba(120, 120, 120, 0.068);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.inicio,
+.productos,
+.tendecias,
+.colleciones,
+.sobrenosotros {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inicio {
+  margin-left: 190px;
+}
+.inicio:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+.productos {
+  margin-left: -10px;
+}
+.productos:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+.tendecias {
+  margin-left: -10px;
+}
+.tendecias:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+.colleciones {
+  margin-left: -10px;
+}
+.colleciones:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+.sobrenosotros {
+  margin-left: -10px;
+}
+.sobrenosotros:hover {
+  color: #555;
+  transform: scale(1.1);
+}
+
+.login {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+.login:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.carrito {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+.carrito:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+.busqueda {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+.busqueda:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.cantidad {
+  color: white;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin-left: 80px;
+  }
+  .inicio {
+    margin-left: 30px;
+  }
+  .carrito {
+    margin-left: 0px;
+  }
+  .busqueda {
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: 130px;
+  }
+  .logo {
+    margin-left: 80px;
+  }
+  .inicio,
+  .productos,
+  .tendecias,
+  .colleciones,
+  .sobrenosotros {
+    margin-top: 80px;
+    margin-left: -40px;
+  }
+  .carrito {
+    margin-left: -110px;
+  }
+  .busqueda {
+    margin-left: -90px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  nav {
+    height: 160px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .inicio,
+  .productos,
+  .tendecias,
+  .colleciones,
+  .sobrenosotros {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .inicio {
+    margin-left: -60px;
+  }
+  .productos {
+    margin-left: -50px;
+  }
+  .tendecias {
+    margin-left: -50px;
+  }
+  .colleciones,
+  .sobrenosotros {
+    margin-top: 110px;
+  }
+  .colleciones {
+    margin-left: -260px;
+  }
+  .sobrenosotros {
+    margin-left: -50px;
+  }
+  .carrito {
+    margin-left: -70px;
+  }
+  .busqueda {
+    margin-left: -60px;
+  }
+}

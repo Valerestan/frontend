@@ -1,0 +1,42 @@
+<div class="todo-login">
+<img class="img-sesion" src="iniciosesion.jpg" alt="inicio Sesión">
+
+<div class="login">
+  <div class="registro">
+    <p class="inicia-titulo">INICIA SESIÓN</p>
+    <p class="sub-titulo">Bienvenido de nuevo. ¡Tu cuenta te espera!</p>
+
+    <div class="form-group">
+      <input
+        type="email"
+        class="form-control b-email"
+        id="email"
+        placeholder="Email"
+        [(ngModel)]="email"
+      />
+    </div>
+
+    <div class="form-group">
+      <input
+        type="password"
+        class="form-control b-password"
+        name="email"
+        placeholder="Passsword"
+        id="password"
+        [(ngModel)]="password"
+      />
+    </div>
+
+    <button type="submit" class="btn boton b-inicio" (click)="Login()">
+      Iniciar Sesión
+    </button>
+
+    <p class="texto-registro">
+      ¿Aun no tienes una cuenta?
+      <a class="negrita" routerLink="/registro">Regristrate</a>
+    </p>
+  </div>
+</div>
+
+</div>
+

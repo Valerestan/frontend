@@ -1,0 +1,133 @@
+.todo-login{
+  background-color: #f8f9fa;
+  height: 700px;
+}
+
+
+.img-sesion{
+  width: 50%;
+  height: 700px;
+}
+
+.login {
+  display: flex;
+  margin-top: -490px;
+  margin-left: 990px;
+
+}
+
+.inicia-titulo {
+  font-size: 34px;
+  text-align: center;
+  margin-top: 0px;
+ color: #323232;
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sub-titulo{
+  font-size: 15px;
+  margin-top: -10px;
+  color: #323232fb;
+   /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.b-email {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  padding-left: 20px;
+  margin-top: 60px;
+  border: 2px solid #2828283c;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #979595;
+  transition: 0.3s;
+   /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+.b-email:focus {
+  background: white;
+  border-color: #28282800;
+  color: #282828;
+  box-shadow: 0 0 5px rgb(39, 39, 39);
+}
+
+.b-password {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  padding-left: 20px;
+  border: 2px solid #2828283c;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #979595;
+  transition: 0.3s;
+   /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: bold;
+}
+.b-password:focus {
+  background: white;
+  border-color: #28282800;
+  color: #282828;
+  box-shadow: 0 0 5px rgb(39, 39, 39);
+}
+
+
+.b-inicio {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  margin-top: 40px;
+  padding-left: 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #ffffff;
+  transition: 0.3s;
+  background-color: #DDC7A2;
+  text-align: center;
+   /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+}
+.b-inicio:focus {
+  background-color: #c2bfbf;
+  border-color: #75757500;
+  color: white;
+  box-shadow: 0 0 5px rgb(39, 39, 39);
+}
+
+.texto-registro{
+  font-size: 14px;
+  margin-top: 20px;
+   color: #323232d6;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.negrita{
+  color: #1c1c1c;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+}

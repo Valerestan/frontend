@@ -1,0 +1,175 @@
+<app-menulateral></app-menulateral>
+
+<div class="ventanaflotante">
+  <div class="tituloventana">Productos</div>
+
+  <table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Cantidad</th>
+        <th scope="col">Categoria</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of data">
+        <tr (click)="SeleccionarId(item._id)">
+          <td class="texto">{{ item.nombre }}</td>
+          <td class="texto">{{ item.precio | currency }}</td>
+          <td class="texto">{{ item.cantidad }}</td>
+          <td class="texto">{{ item.categoria }}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+
+  <div class="btnnuevo" (click)="Nuevo()">+</div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog card">
+    <div class="modal-content card-body">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Productos</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="codigo">Código</label>
+            <input
+              type="text"
+              class="form-control"
+              id="codigo"
+              name="codigo"
+              [(ngModel)]="codigo"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="productName" class="form-label">Nombre Producto</label>
+            <input
+              type="text"
+              class="form-control"
+              id="productName"
+              name="nombre"
+              [(ngModel)]="nombre"
+              placeholder="Ingrese el nombre del producto"
+            />
+          </div>
+          <label for="floatingTextarea2">Descripción</label>
+          <div class="form-floating">
+            <textarea
+              class="form-control textarea"
+              placeholder="Leave a comment here"
+              name="descripcion"
+              [(ngModel)]="descripcion"
+              id="floatingTextarea2"
+              style="height: 100px"
+            ></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="productPrice" class="form-label">Precio Producto</label>
+            <div class="input-group">
+              <span class="input-group-text">$</span>
+              <input
+                type="number"
+                class="form-control"
+                id="productPrice"
+                name="precio"
+                [(ngModel)]="precio"
+                placeholder="Ingrese el precio del producto"
+                min="0"
+                step="0.5"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="productStock" class="form-label">Cantidad</label>
+            <input
+              type="number"
+              class="form-control"
+              id="productStock"
+              name="cantidad"
+              [(ngModel)]="cantidad"
+              placeholder="Ingrese la cantidad del producto en stock"
+              min="0"
+              step="1"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="categorySelect" class="form-label"
+              >Seleccione categoría:</label
+            >
+            <select
+              id="categorySelect"
+              name="categoria"
+              [(ngModel)]="categoria"
+              class="form-select"
+            >
+              <option selected>Seleccione una categoría</option>
+              <option value="home">Inicio</option>
+              <option value="products">Productos</option>
+              <option value="tendencias">Tendencias</option>
+              <option value="coleccion">Colecciones</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="urlImg" class="form-label">Url Imagen</label>
+            <input
+              type="text"
+              class="form-control"
+              id="urlImg"
+              name="foto"
+              [(ngModel)]="foto"
+              placeholder="Ingrese la url de la imagen"
+            />
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              (click)="Eliminar()"
+              *ngIf="idseleccionado != ''"
+            >
+              Eliminar
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="Actualizar()"
+              *ngIf="idseleccionado != ''"
+            >
+              Actualizar
+            </button>
+            <button
+              type="button"
+              class="btn button-guardar"
+              (click)="Guardar()"
+              *ngIf="idseleccionado == ''"
+            >
+              Guardar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

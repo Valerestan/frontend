@@ -1,0 +1,110 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka:wght@300..700&family=Gabarito&family=Quicksand:wght@300..700&display=swap"
+  rel="stylesheet"
+/>
+<main>
+  <!--Portada-->
+  <section>
+    <a href="home">
+      <div class="img-portada">
+        <img src="portada.png" class="img-fluid z-n1" alt="imagendehogar" />
+      </div>
+    </a>
+
+    <h1 class="titulo-mabello text-center fw-bold">Galery mäbello</h1>
+
+    <p class="copy-titulo-principal">¡Explora, inspírate y hazlo realidad!</p>
+    <a href="#iracomprar">
+      <img class="flecha-portada" src="flecha1.png" alt="flecha" />
+    </a>
+  </section>
+
+  <!--Acerca de Nosotros-->
+  <section>
+    <p class="titulo-nosotros">Acerca de <br />Nosotros</p>
+    <div class="contenedor-nosotros">
+      <p>
+        En Galery mäbello, nos apasiona ofrecerte lo mejor en diseño de muebles
+        para transformar tu hogar o espacio de trabajo. Nuestra galería presenta
+        una cuidadosa selección de piezas únicas que combinan funcionalidad,
+        estilo y calidad, pensadas para satisfacer tus necesidades y gustos.
+      </p>
+      <hr class="hr-linea-nosotros" />
+      <a class="leermas-nosotros" href="../../sobrenosotros">Leer más</a>
+    </div>
+  </section>
+
+  <!--Tendencias-->
+  <img class="img-tendencias" src="tendencias-1.jpg" alt="paneltendencias" />
+  <section id="iracomprar">
+    <div class="colorfondo-tendencias"></div>
+    <div class="cajamover">
+      <p class="subtitulo-tendencias">Diseño e Innovación</p>
+      <p class="titulo-tendencias">Fusión Urbana</p>
+    </div>
+    <div class="contenedor-tendencias">
+      <p>
+        Descubre nuestro muble Fusión Urbana, la pieza en tendencia que
+        transformará cualquier habitación. Con un diseño moderno, materiales de
+        alta calidad y una funcionalidad que se adapta a tus necesidades, este
+        mueble es el complemento perfecto para darle un toque único y
+        sofisticado a tu hogar.
+        <br />
+        <br />
+      </p>
+      <p class="creadora-tendencias">Explora las tendencias</p>
+      <a href="../../tendecias" class="btn-tendencias">ver más</a>
+    </div>
+  </section>
+
+  <!--Productos-->
+  <p class="titulo-producto">Descubre el estilo perfecto para tu hogar</p>
+  <p class="subtitulo-producto">
+    Explora nuestra exclusiva colección de muebles y <br />encuentra la pieza
+    perfecta para transformar tu espacio.
+  </p>
+  <a href="../productos" class="btn-comprar">ver más</a>
+  <section class="productos">
+    <div class="d-flex flex-wrap justify-content-center">
+      @for (producto of productos; track $index) {
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img
+          src="{{ producto.foto }}"
+          class="img-card card-img-top"
+          alt="{{ producto.titulo }}"
+          style="width: 100%; height: 400px; object-fit: cover"
+        />
+        <div class="card-body">
+          <h5 class="titulo card-title">{{ producto.nombre }}</h5>
+          <p class="material card-text">{{ producto.descripcion }}</p>
+          <p class="precio card-text">{{ producto.precio | currency }}</p>
+
+          <button type="button" class="btn-agregar">Agregar</button>
+        </div>
+      </div>
+      }
+    </div>
+  </section>
+
+  <!--Coleccion-->
+  <section class="colecciones">
+    <img class="img-coleccion" src="coleccion-1.jpg" alt="img" />
+    <section>
+      <div class="contenedor-coleccion">
+        <p class="subtitulo-cole">Descubre</p>
+        <p class="titulo-cole">Abstract.</p>
+        <div class="texto-cole">
+          <p>
+            ¡Es momento de dar el siguiente paso y llevar tu espacio a nuevas
+            alturas! Descubre el futuro del diseño, hoy.
+          </p>
+        </div>
+      </div>
+
+      <p class="texto-deco">Explora las Colecciones</p>
+      <a href="../../colleciones" class="btn-cole">ver más</a>
+    </section>
+  </section>
+</main>

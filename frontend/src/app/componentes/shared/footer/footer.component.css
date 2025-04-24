@@ -1,0 +1,208 @@
+footer {
+  background-color: #f8f9fa;
+  height: 430px;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  margin-left: 690px;
+  margin-top: 40px;
+}
+.links-titulo {
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+  color: #323232;
+
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.siguenos {
+  text-align: center;
+  margin-top: 0px;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.instagram,
+.linkedin,
+.wpp {
+  width: 30px;
+  height: 30px;
+  margin-top: 0px;
+}
+.wpp:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
+}
+
+.instagram {
+  margin-left: 710px;
+}
+.instagram:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
+}
+
+.linkedin {
+  margin-left: 10px;
+}
+.linkedin:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
+}
+.wpp {
+  margin-left: 10px;
+}
+
+.link-1,
+.link-2,
+.link-3 {
+  display: inline-block;
+  color: #323232a1;
+  margin-top: 10px;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.link-1 {
+  margin-left: 640px;
+}
+.link-1:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+.link-2 {
+  margin-left: 10px;
+}
+.link-2:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+.link-3 {
+  margin-left: 10px;
+}
+.link-3:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.linea {
+  border-color: white;
+  margin-top: -30px;
+}
+.links-1,
+.links-2,
+.links-3 {
+  display: inline-block;
+  margin-top: 0px;
+  color: #323232a1;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.links-1 {
+  margin-left: 515px;
+}
+.links-1:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+.links-2 {
+  margin-left: 10px;
+}
+.links-2:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+.links-3 {
+  margin-left: 10px;
+}
+.links-3:hover {
+  color: black;
+  transition: transform 0.3s ease;
+}
+.derechos {
+  text-align: center;
+  margin-top: -10px;
+  color: #323232a1;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin-left: 440px;
+  }
+  .instagram {
+    margin-left: 458px;
+  }
+  .link-1 {
+    margin-left: 390px;
+  }
+  .links-1 {
+    margin-left: 290px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 320px;
+  }
+  .instagram {
+    margin-left: 330px;
+  }
+  .link-1 {
+    margin-left: 260px;
+  }
+  .links-1 {
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  footer{
+    height: 500px;
+  }
+  .logo {
+    margin-left:120px;
+  }
+  .instagram {
+    margin-left: 130px;
+  }
+  .link-1 {
+    margin-left: 60px;
+  }
+  .links-1 {
+    margin-left: 13px;
+  }
+  .links-3 {
+    margin-left: 110px;
+  }
+}
+
+
+
+
+

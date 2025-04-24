@@ -1,0 +1,16 @@
+.ventanaflotante {
+  background-color: #dadcdd;
+  width: 1390px;
+  margin-left: 200px;
+}
+.tituloventana {
+  padding-top: 130px;
+  border-color: rgba(255, 255, 255, 0);
+  color: #343a40;
+  font-size: 18px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

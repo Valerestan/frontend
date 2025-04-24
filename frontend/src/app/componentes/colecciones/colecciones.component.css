@@ -1,0 +1,190 @@
+.img-tendencias-portada {
+  width: 100%;
+  margin-top: 0px;
+}
+.estilo {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  margin-top: -580px;
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulo-portada {
+  font-size: 180px;
+  margin-left: 130px;
+  margin-top: 510px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-cole {
+  text-decoration: black;
+  color: #323232d6;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flecha {
+  width: 22px;
+  height: 22px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.contenedor-producto {
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  margin-left: 950px;
+  margin-top: -80px;
+}
+
+/*CARDS*/
+
+.card {
+  border: none;
+  padding-top: 100px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 27px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.precio {
+  text-align: center;
+  font-size: 16px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -18px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.num-produc {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  color: #323232d6;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-comprar {
+  display: inline-block;
+  padding: 8px 9px;
+  background-color: white;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 17px;
+  margin-left: 100px;
+  margin-top: -20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-comprar:hover {
+  background-color: rgb(176, 175, 175);
+  color: black;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1024px) {
+  .img-tendencias-portada {
+    width: 100%;
+    height: 100%;
+  }
+  .estilo{
+    margin-top: -300px;
+  }
+  .titulo-portada{
+    font-size: 120px;
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+  .contenedor-producto{
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img-tendencias-portada {
+    width: 100%;
+    height: 500px;
+  }
+  .estilo{
+    margin-top: -260px;
+    font-size: 50px;
+  }
+  .titulo-portada{
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 250px;
+  }
+  .contenedor-producto{
+    margin-left: 430px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .img-tendencias-portada {
+    width: 100%;
+    height: 600px;
+  }
+  .estilo{
+    margin-top: -260px;
+    font-size: 40px;
+  }
+  .productos{
+    margin-top: 50px;
+  }
+  .card{
+   z-index: 1;
+   padding-top: 0px;
+  }
+  .titulo-portada{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 300px;
+  }
+
+  .contenedor-producto{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+}

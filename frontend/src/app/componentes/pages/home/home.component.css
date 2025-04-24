@@ -1,0 +1,683 @@
+/*PORTADA*/
+.img-fluid {
+  width: 100%;
+  height: 900px;
+  margin-top: -120px;
+}
+
+.titulo-mabello {
+  margin-top: -520px;
+  font-size: 180px;
+  color: rgba(255, 255, 255, 0.582);
+  text-align: center;
+
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.copy-titulo-principal {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  margin-top: 110px;
+  text-align: center;
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.flecha-portada {
+  width: 28px;
+  height: 28px;
+  margin-top: 0px;
+  margin-left: 750px;
+}
+
+/*SOBRE NOSOTROS*/
+
+.titulo-nosotros {
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 300px;
+  line-height: 50px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor-nosotros {
+  width: 400px;
+  height: 300px;
+  margin-left: 820px;
+  margin-top: -110px;
+  text-align: justify;
+  color: #323232;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hr-linea-nosotros {
+  width: 60px;
+  margin-top: 15px;
+  border: 1.5px solid rgba(0, 0, 0, 0.372);
+}
+
+.leermas-nosotros {
+  text-decoration: none;
+  color: #323232;
+}
+
+/*TENDECIAS*/
+.img-tendencias {
+  width: 50%;
+  height: 700px;
+  margin-top: 0px;
+  z-index: 1;
+}
+.colorfondo-tendencias {
+  background-color: #1c1c1c;
+  height: 700px;
+  width: 50%;
+  margin-left: 760px;
+  display: flex;
+  margin-top: -700px;
+  z-index: 2;
+}
+
+.cajamover {
+  width: 600px;
+  height: 150px;
+  margin-top: -600px;
+  margin-left: 860px;
+}
+.subtitulo-tendencias {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.717);
+  z-index: 2;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulo-tendencias {
+  font-size: 85px;
+  margin-top: -20px;
+  color: white;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.contenedor-tendencias {
+  width: 430px;
+  height: 400px;
+  text-align: justify;
+  margin-left: 930px;
+  margin-top: 70px;
+  color: rgba(255, 255, 255, 0.648);
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.creadora-tendencias {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-tendencias {
+  margin-left: 165px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: rgb(176, 175, 175);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-tendencias:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+/*PRODUCTOS*/
+/*CARDS*/
+
+.titulo-producto {
+  font-size: 40px;
+  margin-top: 90px;
+  text-align: center;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.subtitulo-producto {
+  text-align: center;
+  color: #3232329d;
+  font-size: 18px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  border: none;
+  padding-top: 60px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 27px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.precio {
+  text-align: center;
+  font-size: 16px;
+  color: #3232329a;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -18px;
+  color: #3232329a;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.num-produc {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  color: #323232d6;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.texto-comprar {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #323232d6;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+.btn-comprar {
+  margin-left: 710px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-comprar:hover {
+  background-color: rgb(176, 175, 175);
+  color: black;
+  transform: scale(1.1);
+}
+
+.btn-agregar {
+  display: inline-block;
+  padding: 8px 9px;
+  background-color: white;
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 17px;
+  margin-left: 100px;
+  margin-top: -20px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-agregar:hover {
+  background-color: rgb(176, 175, 175);
+  color: black;
+  transform: scale(1.1);
+}
+/*COLECCION*/
+
+.colecciones {
+  margin-top: 50px;
+}
+
+.img-coleccion {
+  width: 100%;
+  z-index: 1;
+}
+
+.contenedor-coleccion {
+  margin-top: -740px;
+  margin-left: -130px;
+  z-index: 2;
+}
+.subtitulo-cole {
+  margin-top: -85px;
+  margin-left: 1160px;
+  font-size: 25px;
+  color: #323232fa;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.titulo-cole {
+  font-size: 70px;
+  letter-spacing: 1px;
+  margin-left: 999px;
+  margin-top: -10px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+.texto-cole {
+  font-size: 15px;
+  width: 250px;
+  text-align: right;
+  margin-left: 1009px;
+  margin-top: 13px;
+  color: #1c1c1cac;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto-deco {
+  margin-top: 360px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  /*tipografia*/
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+.btn-cole {
+  margin-left: 720px;
+
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: rgb(176, 175, 175);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-cole:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+.explorar {
+  margin-top: 20px;
+  margin-left: 270px;
+  font-size: 15px;
+  color: #323232fa;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  /*PORTADA*/
+  .img-fluid {
+    height: 800px;
+  }
+  .titulo-mabello {
+    font-size: 140px;
+    margin-top: -460px;
+  }
+  .copy-titulo-principal {
+    margin-top: 90px;
+  }
+  .flecha-portada {
+    margin-left: 500px;
+  }
+
+  /*SOBRE NOSOTROS*/
+  .titulo-nosotros {
+    margin-top: 230px;
+    margin-left: 80px;
+  }
+  .contenedor-nosotros {
+    margin-left: 530px;
+  }
+
+  /*TENDECIAS*/
+  .img-tendencias {
+    width: 50%;
+  }
+  .colorfondo-tendencias {
+    width: 50%;
+    margin-left: 500px;
+  }
+  .cajamover {
+    margin-left: 550px;
+  }
+  .titulo-tendencias {
+    font-size: 60px;
+  }
+  .contenedor-tendencias {
+    margin-left: 600px;
+    width: 340px;
+    margin-top: 60px;
+  }
+  .creadora-tendencias {
+    margin-top: 0px;
+  }
+  .btn-tendencias {
+    margin-top: 0px;
+    margin-left: 130px;
+  }
+
+  /*PRODUCTOS*/
+  /*CARDS*/
+
+  .btn-comprar {
+    margin-left: 480px;
+  }
+
+  /*COLECCION*/
+  .img-coleccion {
+    width: 100%;
+    height: 700px;
+  }
+  .contenedor-coleccion {
+    margin-left: -500px;
+    margin-top: -650px;
+  }
+
+  .texto-deco {
+    margin-top: 270px;
+  }
+  .btn-cole {
+    margin-left: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*PORTADA*/
+  .img-fluid {
+    height: 600px;
+    width: 100%;
+  }
+  .titulo-mabello {
+    font-size: 90px;
+    margin-top: -260px;
+  }
+  .copy-titulo-principal {
+    margin-top: 40px;
+  }
+  .flecha-portada {
+    margin-left: 370px;
+  }
+
+  /*SOBRE NOSOTROS*/
+  .titulo-nosotros {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .contenedor-nosotros {
+    margin-left: 220px;
+    margin-top: 70px;
+  }
+
+  /*TENDECIAS*/
+  .img-tendencias {
+    width: 100%;
+  }
+  .colorfondo-tendencias {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .cajamover {
+    margin-left: 180px;
+  }
+  .contenedor-tendencias {
+    margin-left: 200px;
+    width: 340px;
+    margin-top: 0px;
+  }
+  .creadora-tendencias {
+    margin-top: 0px;
+  }
+  .btn-tendencias {
+    margin-top: 0px;
+    margin-left: 130px;
+  }
+
+  /*PRODUCTOS*/
+  /*CARDS*/
+  .titulo-producto {
+    margin-top: 130px;
+    font-size: 30px;
+  }
+  .btn-comprar {
+    margin-left: 340px;
+  }
+
+  /*COLECCION*/
+  .img-coleccion {
+    height: 700px;
+  }
+  .contenedor-coleccion {
+    margin-left: -700px;
+    margin-top: -650px;
+  }
+
+  .texto-deco {
+    margin-top: 270px;
+  }
+  .btn-cole {
+    margin-left: 330px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /*PORTADA*/
+  .img-fluid {
+    height: 500px;
+    width: 100%;
+  }
+  .titulo-mabello {
+    font-size: 40px;
+    margin-top: -150px;
+  }
+  .copy-titulo-principal {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .flecha-portada {
+    margin-left: 170px;
+    width: 17px;
+    height: 17px;
+  }
+
+  /*SOBRE NOSOTROS*/
+  .titulo-nosotros {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .contenedor-nosotros {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 70px;
+  }
+
+  /*TENDECIAS*/
+  .img-tendencias {
+    width: 100%;
+    height: 100%;
+  }
+  .colorfondo-tendencias {
+    width: 100%;
+  }
+  .cajamover {
+    margin-left: 40px;
+  }
+  .subtitulo-tendencias {
+    font-size: 20px;
+  }
+  .titulo-tendencias {
+    font-size: 40px;
+  }
+
+  .contenedor-tendencias {
+    margin-left: 25px;
+    width: 300px;
+  }
+  .creadora-tendencias {
+    margin-top: 0px;
+  }
+  .btn-tendencias {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+
+  /*PRODUCTOS*/
+  /*CARDS*/
+  .titulo-producto {
+    margin-top: 130px;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .subtitulo-producto {
+    font-size: 15px;
+  }
+  .btn-comprar {
+    margin-left: 130px;
+  }
+
+  /*COLECCION*/
+  .img-coleccion {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contenedor-coleccion {
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .subtitulo-cole {
+    font-size: 20px;
+    color: #323232;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .titulo-cole {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-left: 40px;
+  }
+  .texto-cole {
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .texto-deco {
+    margin-top: 30px;
+    text-align: center;
+    color: #323232;
+  }
+  .btn-cole {
+    margin-left: 120px;
+  }
+}

@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.ventanaflotante {
+  margin-left: 153px;
+  background-color: rgb(64, 187, 228);
+  width: calc(100% - 154px);
+  height: 100vh;
+  border-radius: 14px;
+}
+
+.tituloventana {
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  border: solid 1px;
+  border-radius: 13px;
+  top: 1px;
+  text-align: center;
+}

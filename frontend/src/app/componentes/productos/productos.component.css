@@ -1,0 +1,126 @@
+.btnnuevo {
+  width: 44px;
+  height: 44px;
+  background: white;
+  color: #292929;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  cursor: pointer;
+  border: 2px solid #232323;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnnuevo:hover,
+.btnnuevo:focus {
+  background: #636364;
+  color: white;
+  outline: none;
+  border-color: white;
+  transform: scale(1.1); /* Efecto de aumento sutil */
+}
+
+.ventanaflotante {
+  background-color: #dadcdd;
+  width: 1390px;
+  margin-left: 200px;
+}
+.tituloventana {
+  padding-top: 130px;
+  border-color: rgba(255, 255, 255, 0);
+  color: #343a40;
+  font-size: 18px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.texto {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+    max-width: 600px;
+    width: 100%;
+    background: #ffffff; /* Fondo blanco para un look minimalista */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card-body {
+    background: #676667;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #85669e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-text {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.card-footer {
+    background: #85669e; /* Color ligeramente más oscuro para contraste */
+    padding: 15px;
+    border-top: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.button-guardar {
+    background-color:white !important;
+    border: none !important;
+    color: #9f84b1;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.1s;
+}
+
+.button-guardar:hover {
+    background-color: white !important;
+    color: #9f84b1;
+    transform: scale(1.05);
+}
+.textarea{
+    resize: none;
+}
+
+.texto {
+    /* color: white; */
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
